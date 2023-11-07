@@ -1,23 +1,18 @@
 // Brand
-$color-brand-primary: #ff3b00;
+$color-purple: #44206d;
+$color-peach: #f9c287;
+$color-purple-light: #9346ea;
+
 
 // Grays
+$color-black: #121212;
 $color-gray-dark: #222;
 $color-gray: #626262;
-$color-gray-light: #cfcfcf;
+$color-gray-purple: #5c517e;
+$color-gray-blue: #8ca2bc;
+$color-gray-light: #f5f9fa;
 $color-white: #fff;
 
 // Typography
-$color-text: $color-gray-dark;
+$color-text: $color-black;
 $color-text-inverted: $color-white;
-
-// Buttons
-$color-bg-button-primary: $color-brand-primary;
-$color-border-button-primary: $color-brand-primary;
-$color-text-button-primary: $color-text-inverted;
-$color-bg-button-secondary: $color-gray;
-$color-border-button-secondary: $color-gray;
-$color-text-button-secondary: $color-text-inverted;
-$color-bg-button-outline: $color-white;
-$color-border-button-outline: $color-brand-primary;
-$color-text-button-outline: $color-brand-primary;

@@ -7,18 +7,25 @@ html {
 }
 
 h1 {
+	margin-bottom: variables.$space-flex-64;
 	font-size: variables.$font-size-h1;
 }
 
 h2 {
+	margin-top: variables.$space-flex-64;
+	margin-bottom: variables.$space-flex-48;
 	font-size: variables.$font-size-h2;
 }
 
 h3 {
+	margin-top: variables.$space-flex-48;
+	margin-bottom: variables.$space-flex-32;
 	font-size: variables.$font-size-h3;
 }
 
 h4 {
+	margin-top: variables.$space-flex-32;
+	margin-bottom: variables.$space-flex-16;
 	font-size: variables.$font-size-h4;
 }
 
@@ -26,7 +33,11 @@ h1,
 h2,
 h3,
 h4 {
-	color: variables.$color-text;
-	font-weight: variables.$font-weight-normal;
+	// color: variables.$color-text;
+	font-weight: variables.$font-weight-bold;
 	line-height: variables.$line-height-headings;
+}
+
+p {
+	margin-bottom: variables.$space-flex-16;
 }
