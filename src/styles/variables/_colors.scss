@@ -1,0 +1,23 @@
+// Brand
+$color-brand-primary: #FF3B00;
+
+// Grays
+$color-gray-dark: #222;
+$color-gray: #626262;
+$color-gray-light: #CFCFCF;
+$color-white: #FFF;
+
+// Typography
+$color-text: $color-gray-dark;
+$color-text-inverted: $color-white;
+
+// Buttons
+$color-bg-button-primary: $color-brand-primary;
+$color-border-button-primary: $color-brand-primary;
+$color-text-button-primary: $color-text-inverted;
+$color-bg-button-secondary: $color-gray;
+$color-border-button-secondary: $color-gray;
+$color-text-button-secondary: $color-text-inverted;
+$color-bg-button-outline: $color-white;
+$color-border-button-outline: $color-brand-primary;
+$color-text-button-outline: $color-brand-primary;
