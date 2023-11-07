@@ -1,6 +1,7 @@
 {
   "extends": [
-    "plugin:astro/recommended"
+    "plugin:astro/recommended",
+		"plugin:prettier/recommended"
   ],
   "overrides": [
     {
