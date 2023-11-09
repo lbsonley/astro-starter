@@ -1,7 +1,9 @@
 {
-  "extends": [
-    "stylelint-config-standard-scss",
-    "stylelint-config-property-sort-order-smacss",
-		"stylelint-config-astro"
-  ]
+	"extends": [
+		"stylelint-config-standard-scss",
+		"stylelint-config-html",
+		"stylelint-config-property-sort-order-smacss",
+		"stylelint-config-astro",
+		"stylelint-prettier/recommended"
+	]
 }
