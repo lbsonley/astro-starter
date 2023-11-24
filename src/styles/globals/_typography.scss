@@ -1,12 +1,25 @@
 @use "../variables";
 
 html {
+	color: variables.$color-black;
 	font-family: variables.$font-family-base;
 	font-size: variables.$font-size-base;
 	line-height: variables.$line-height-base;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: variables.$color-blue-600;
+	font-family: variables.$font-family-base;
+	line-height: variables.$line-height-headings;
+}
+
 h1 {
+	margin-top: variables.$space-flex-80;
 	margin-bottom: variables.$space-flex-64;
 	font-size: variables.$font-size-h1;
 }
@@ -27,15 +40,6 @@ h4 {
 	margin-top: variables.$space-flex-32;
 	margin-bottom: variables.$space-flex-16;
 	font-size: variables.$font-size-h4;
-}
-
-h1,
-h2,
-h3,
-h4 {
-	// color: variables.$color-text;
-	font-weight: variables.$font-weight-bold;
-	line-height: variables.$line-height-headings;
 }
 
 p {

@@ -4,20 +4,20 @@ $font-family-base: -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
 	helvetica, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 	"Segoe UI Symbol";
 
-/* @link https://utopia.fyi/type/calculator?c=320,18,1.25,960,20,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.2,960,18,1.2,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 // headings
-$font-size-h1: clamp(3.4331rem, 2.5194rem + 4.5688vw, 5.2606rem);
-$font-size-h2: clamp(2.7469rem, 2.1469rem + 3vw, 3.9469rem);
-$font-size-h3: clamp(2.1975rem, 1.8159rem + 1.9078vw, 2.9606rem);
-$font-size-h4: clamp(1.7581rem, 1.5266rem + 1.1578vw, 2.2213rem);
-$font-size-h5: clamp(1.4063rem, 1.2763rem + 0.65vw, 1.6663rem);
-
+$font-size-h1: clamp(2.4881rem, 2.3325rem + 0.7781vw, 2.7994rem);
+$font-size-h2: clamp(2.0738rem, 1.9444rem + 0.6469vw, 2.3325rem);
+$font-size-h3: clamp(1.7281rem, 1.6203rem + 0.5391vw, 1.9438rem);
+$font-size-h4: clamp(1.44rem, 1.35rem + 0.45vw, 1.62rem);
+$font-size-h5: clamp(1.2rem, 1.125rem + 0.375vw, 1.35rem);
 
 // copy text
-$font-size-base: clamp(1.125rem, 1.0625rem + 0.3125vw, 1.25rem);
-$font-size-small: clamp(0.9rem, 0.8813rem + 0.0938vw, 0.9375rem);
-$font-size-xsmall: clamp(0.7038rem, 0.7281rem + -0.0406vw, 0.72rem);
+$font-size-lead: $font-size-h5;
+$font-size-base: clamp(1rem, 0.9375rem + 0.3125vw, 1.125rem);
+$font-size-small: clamp(0.8331rem, 0.7809rem + 0.2609vw, 0.9375rem);
+$font-size-xsmall: clamp(0.6944rem, 0.6509rem + 0.2172vw, 0.7813rem);
 
 /**
  * Line Heights
